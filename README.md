@@ -1,22 +1,22 @@
 # coffee
 
-**CozyCup** — SwiftUI-приложение кофейни: главный экран с новинками меню, информацией о заведении, любимыми позициями гостей и полным меню.
+**CozyCup** is a SwiftUI coffee shop app: a home screen with new menu items, shop information, customer favorites and the full menu.
 
-## Скриншоты
+## Screenshots
 
-| Главный экран | Полное меню |
+| Home | Full menu |
 |:---:|:---:|
 | <img src="screenshots/home.png" width="300"> | <img src="screenshots/full-menu.png" width="300"> |
 
-## Возможности
+## Features
 
-- **New on the menu** — горизонтальная карусель новинок с бейджем «New»
-- **Information** — Wi-Fi, часы работы, способы оплаты и адрес в сетке `Grid`
-- **Customer Favorites** — список популярных позиций с категорией и ценой
-- **Full Menu** — всё меню в двухколоночной сетке `LazyVGrid`
-- Фото загружаются из сети через `AsyncImage`
+- **New on the menu** — horizontal carousel of new items with a "New" badge
+- **Information** — Wi-Fi, opening hours, payment methods and address in a `Grid`
+- **Customer Favorites** — list of popular items with category and price
+- **Full Menu** — the whole menu in a two-column `LazyVGrid`
+- Photos are loaded from the network with `AsyncImage`
 
-## Структура
+## Project structure
 
 ```
 coffee/
@@ -33,11 +33,11 @@ coffee/
     └── CoffeeItem.swift
 ```
 
-## Запуск
+## Run
 
-1. Открыть `coffee.xcodeproj` в Xcode
-2. Выбрать симулятор iPhone и нажать **Run** (⌘R)
+1. Open `coffee.xcodeproj` in Xcode
+2. Pick an iPhone simulator and press **Run** (⌘R)
 
-## Стек
+## Tech stack
 
 Swift · SwiftUI · Xcode
